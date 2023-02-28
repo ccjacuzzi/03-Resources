@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:drawableTint="@android:color/white"
         android:text="@string/clock"
+        android:drawableLeft="@drawable/state_list_drawable"
         android:checkable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

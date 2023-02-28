@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--This is the image to show when the button has been clicked.-->
+    <item android:drawable="@drawable/ic_add_circle_outline_24px" android:state_checked="true"></item>
+
+    <!--This is the default image-->
+    <item android:drawable="@drawable/ic_baseline_access_time_24"></item>
+
+</selector>
