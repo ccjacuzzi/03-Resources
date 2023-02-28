@@ -7,12 +7,13 @@
     tools:context=".MainActivity">
 
     <!-- TODO 01. Resource access. Replace the hardcoded text value with a string resource -->
+    <!--I created a new string resource called "page_title" that hold the value "Hello, World!-->
     <TextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/spacing_xlarge"
-        android:text="Hello World"
+        android:text="@string/hello_world"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -21,15 +22,16 @@
     <!-- TODO 12. Define tint color for the ImageView component -->
     <ImageView
         android:id="@+id/image"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_marginTop="32dp"
         android:contentDescription="TODO"
         app:layout_constraintBottom_toTopOf="@+id/text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        app:tint="@color/blue_900" />
 
     <!-- TODO 13. Create a state list drawable that provides a specific icon when a button is checked,
                   and a different one on normal state -->
