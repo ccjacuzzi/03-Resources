@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         // TODO 02. Set a new source image for the ImageView
-        binding.image.setImageResource(R.drawable.ic_clock_button);
+        binding.image.setImageResource(R.drawable.photo);
+
         // TODO 03. Set a new text for the TextView
         binding.text.setText(R.string.lorem_ipsum);
 

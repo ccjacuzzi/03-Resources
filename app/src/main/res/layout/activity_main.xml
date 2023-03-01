@@ -30,8 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars"
-        app:tint="@color/blue_900" />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <!-- TODO 13. Create a state list drawable that provides a specific icon when a button is checked,
                   and a different one on normal state -->

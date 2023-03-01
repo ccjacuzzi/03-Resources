@@ -2,12 +2,12 @@
     <!-- TODO 06. String resources here -->
     <string name="hello_world" translatable="true">Hello, World!</string>
 
-    <string name="app_name" translatable="false">Resources</string>
+    <string name="app_name">Resources</string>
     <string name="lorem_ipsum" translatable="false">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
         \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
     </string>
-    <string name="clock" translatable="false">Clock</string>
+    <string name="clock">Clock</string>
     <!-- TODO 07. String array resource -->
     <string-array name="planets">
         <item>Mercury</item>
